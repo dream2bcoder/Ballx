@@ -8,7 +8,7 @@ import ballx.listener.impl.ListenerContext;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
-import java.awt.FontMetrics;
+import java.awt.FontMetrics; 
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Point;
@@ -28,7 +28,7 @@ public class Ball extends ListenerContext {
     private final Dimension size;
     private final Ellipse2D circle;
     
-    private static final String chars = "SUBHA+";
+    private static final String chars = "SUBHANKAR";
     
     Point cc;
     int radius = 107;
