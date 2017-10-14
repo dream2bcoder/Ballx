@@ -30,7 +30,7 @@ public class Frame extends JFrame {
         this.setUndecorated(true);
         
         this.setCursor(Toolkit.getDefaultToolkit().createCustomCursor(new BufferedImage(1, 1, BufferedImage.TYPE_INT_ARGB), new Point(), "NONE"));
-        
+//        this.setLocation(0, 0);
         this.setLocation(du.relativeCenter(msize, csize));
         this.add(new Panel(csize), BorderLayout.CENTER);
         
